@@ -1,0 +1,4 @@
+SELECT year, number
+FROM babies
+WHERE name = 'Lillian' AND gender = 'F'
+ORDER BY number;
